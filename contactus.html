@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us</title>
+  <!-- i frames link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+  integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <!-- bootstrap css link  -->
+  <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css"/>
+  <!-- animation link -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- css file link -->
+  <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+  <!-- nav bar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      
+      <div class="startlogo" >
+        <img src="./homepageimages/NEXTAG__8.png" alt="" class="navbarlogo">
+      </div>
+          
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 px-5">
+          <!-- home -->
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./home.html">
+              Home
+            </a>
+          </li>
+          <!-- about us -->
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./aboutus.html">
+              AboutUs
+            </a>
+          </li>
+          <!-- shop -->
+          <li class="nav-item dropdown">
+            <a class="nav-link" aria-current="page" href="./shops.html">
+              Shop
+            </a>
+          </li>
+          <!-- contact -->
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">
+              Contact</a>
+          </li>
+          <!-- comparison.html -->
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./Comparision.html">
+              Comparison
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- main content  -->
+    <!-- contact-home-section1  -->
+    <div class="contact-home-section">
+      <div class="contact-home-content">
+          <h1>Contact</h1>
+          <div class="contact-content-container">
+             <a href="./home.html"> <h3>Home</h3></a>
+              <i class="fa-solid fa-greater-than"></i>
+              <h3>Contact</h3>
+          </div>
+      </div>
+  </div>
+
+
+   <!-- contact-home-section2  -->
+    <!-- container -->
+       <section class="email-container container-fluid" id="send-email">
+       <!-- row -->
+       <!-- col 1 -->
+       <div class="email-content ">
+       <!-- backImg  -->
+       <div class="back_img1">
+        <div class="back_content1">
+        <h2>Get in touch with us</h2>
+        <div class="email-card-container">
+       <!-- location -->
+        <div class="email-card" data-aos="fade-right" data-aos-duration="1500">
+        <div class="icon-box">
+        <i class="fa-solid fa-location-dot"></i><h1>Location</h1>
+        </div>
+        <p> Tariq Rd, Delhi Society Delhi CHS PECHS, Karachi, ,Sindh, Pakistan</p>
+        </div>
+       <!-- phone -->
+        <div class="email-card" data-aos="fade-right" data-aos-duration="1000">
+        <div class="icon-box">
+        <i class="fa-solid fa-phone"></i><h1>Phone</h1>
+        </div>
+        <p>+92-3123456789</p>
+        </div>
+       <!-- email -->
+        <div class="email-card" data-aos="fade-right" data-aos-duration="1900">
+        <div class="icon-box">
+        <i class="fa-solid fa-envelope"></i><h1>Email</h1>
+        </div>
+        <p>NEXTAG@gmail.com</p>
+        </div> 
+        </div>
+       </div>
+
+      <div class="socail-content-box">
+            <span>Our Social Media</span>
+            <div class="socail-icon">
+              <div>
+                <a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+              </div>
+              <div>
+                <a href="https://twitter.com/?lang=en" target="_blank">
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+              </div>
+              <div>
+                <a href="https://www.instagram.com/" target="_blank">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </div>
+              <div>
+                <a href="https://www.youtube.com/" target="_blank">
+                  <i class="fa-brands fa-youtube"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      
+    </div>
+    <!-- col 2 -->
+    <div class="email-input-box" data-aos="fade-up" data-aos-duration="1000">
+      <form action="">
+        <span>Name</span>
+        <input type="text" placeholder="Your Name" required pattern="[A-Z a-z]{3,20}" title="Insert only Alphabets"/>
+        <span>Email</span>
+        <input type="email" placeholder="Email@yourmail.com" required title="Insert Your Email Id"/>
+        <span>Subject</span>
+        <input type="text" placeholder="Subject" required pattern="[A-Z a-z]{3,30}" title="Insert only Alphabets"/>
+        <span>Message</span>
+        <input type="text" placeholder="Message" required pattern="[A-Z a-z]{3,30}" title="Insert only Alphabets"/>
+        <button>Send Message</button>
+      </form>
+    </div>
+
+  </section>
+
+   <!-- map -->
+  <div class="google-map" id="shop-location">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231656.03476260504!2d66.75776369453122!3d24.87663569999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33eecaef72355%3A0x3c9cca44c77de888!2sDolmen%20Mall%20Tariq%20Road!5e0!3m2!1sen!2s!4v1700158514233!5m2!1sen!2s"
+        class="maps" style="border: 0" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+    <!--footer-->
+   <div class="footeer">
+  <footer>
+    <div class="footer-row">
+      <!-- col 1 -->
+    <div class="footer-col">
+         <img src="./homepageimages/NEXTAG__8.png" alt="" class="LOGO" />
+        <p style="font-size: 15px">Join us on this journey as we continue to redefine the narrativeof bags
+        </p>
+    <div class="intromail">
+        <h3><i class="fa-solid fa-envelope"></i> Email</h3>
+        <p class="email-id">NEXTAG@gmail.com</p>
+     </div>
+    </div>
+      <!-- col 2 -->
+      <div class="footer-col">
+        <h3>Branches</h3>
+        <p><i class="fa-solid fa-location-dot"></i> Dolmen Mall Tariq Road</p>
+        <p><i class="fa-solid fa-location-dot"></i> Dolmen Mall Hyderi</p>
+        <p><i class="fa-solid fa-location-dot"></i> Dolmen Mall Clifton</p>
+      <div class="intro">
+          <h3><i class="fa-solid fa-phone"></i> Contact</h3>
+          <h6>+92-3123456789</h6>
+      </div>
+      </div>
+      <!-- col 3 -->
+      <div class="footer-col">
+        <h3>Links</h3>
+        <div class="list">
+         <p> <a href="./home.html">Home</a><br></p>
+         <p> <a href="./aboutus.html">About Us</a><br></p>
+         <p> <a href="./shops.html">Shop</a><br></p>
+         <p> <a href="./contactus.html">Contact Us</a><br></p>
+         <p> <a href="./comparision.html">comparision</a><br></p>
+        </div>
+      </div>
+      <!-- map -->
+      <div class="footer-col">
+        <div class="google-map" id="shop-location">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231656.03476260504!2d66.75776369453122!3d24.87663569999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33eecaef72355%3A0x3c9cca44c77de888!2sDolmen%20Mall%20Tariq%20Road!5e0!3m2!1sen!2s!4v1700158514233!5m2!1sen!2s"
+            class="footermap"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <p class="copyright">NEXTAG</p>
+  </footer>
+</div>
+<!-- end-------------------->
+
+   <!-- animation -->
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+     AOS.init();
+   </script>
+  <!-- bootstrap js link -->
+  <script src="./bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+  <!-- j querry link -->
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+  <!-- js file -->
+  <script src="home.js"></script>
+</body>
+
+</html>

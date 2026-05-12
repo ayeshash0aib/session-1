@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <!-- fontawsome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"/>
+    <!-- bootstrap css link  -->
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.css"/>
+    <!-- animation link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- css file link -->
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+                  
+        <div>
+          <img src="./homepageimages/NEXTAG__8.png" alt="" class="navbarlogo">
+        </div>
+     
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 px-5">
+              <!-- home -->
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./home.html">
+                  Home
+                </a>
+              </li>
+              <!-- about us -->
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./aboutus.html">
+                  AboutUs
+                </a>
+              </li>
+              <!-- shop -->
+              <li class="nav-item dropdown">
+                <a class="nav-link" aria-current="page" href="./shop.html">
+                  Shop
+                </a>
+              </li>
+              <!-- contact -->
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page"
+                  href="./contactus.html">
+                  Contact
+                </a>
+              </li>
+              <!-- comparison.html -->
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./Comparision.html">
+                  comparison
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- back img -->
+       <!-- shop-home-section  -->
+   <div class="contact-home-section1">
+    <div class="contact-home-content1">
+        <h1>shop</h1>
+        <div class="contact-content-container">
+           <a href="./home.html"> <h3>Home</h3></a>
+            <i class="fa-solid fa-greater-than"></i>
+            <h3>shop</h3>
+        </div>
+    </div>
+   </div>
+   
+<!-- popular category -------------------------->
+<section id="popular">
+  <div class="popular-heading">
+    <h1 data-aos="fade-up" data-aos-duration="1000">Popular categories</h1>
+    <!-- popular container -->
+    <div class="popular-container">
+  
+  <div class="popular-card">
+    <a href="./wallets.html">
+      <img src="./homepageimages/images/popular/popular1.jpg" alt="Image 1"></a>
+    </div>
+  <div class="popular-card">
+      <a href="./purses.html">
+        <img src="./homepageimages/images/popular/popular3.jpg" alt="Image 1"></a>
+        </div>
+    </div>
+  </div>
+  </section>
+  <!-- end ------------------------>
+<!-- product card -->
+<section class="section4 " id="best-product">
+  <h3 data-aos="fade-down" data-aos-duration="1000" id="our-product">Our Products</h3>
+  <select data-aos="fade-up" data-aos-duration="2000" onchange="handleChange(this)" id="dropDown">
+      <option value="All">All PRODUCTS</option>
+      <option value="Diore">Dior</option>
+      <option value="Marc Jacobs">Marc Jacobs</option>
+      <option value="Prada">Prada</option>
+      <option value="LV">Louis vittion</option>
+      <option value="Gucci">Gucci</option>
+      <option value="Channel">Channel</option>
+  </select>
+  <div class="sec4-card-container">
+  </div>
+</section>
+<section id="cards_html">
+   <!--Blogs---------------->
+   <section id="blog">
+    <div class="blog-heading" >
+    <div class="blog_head" data-aos="fade-up" data-aos-duration="1000" >
+      <h3>My Blogs</h3>
+    </div>
+      <!-- blog container -->
+      <div class="blog-container">
+    <!-- Blog Card 1 -->
+    <div class="blog-card">
+      <img src="./homepageimages/images/BLOGS/blog1.jpg" alt="Blog Image 1">
+      <div class="blog-card-content">
+        <h2>What Is Your Favorite Non-Premium Designer Bag?</h2>
+        <p>Bags are more than mere accessories; they're expressions of style and functionality. The 
+          diversity in bag designs, from chic clutches to durable backpacks, mirrors the dynamic 
+          aspects of our lives.</p>
+        <div class="read-more-button">
+          <a href="https://www.purseblog.com/reviews/my-new-go-to-bag-the-faure-le-page-daily-battle-zip-tote/" class="read-more-link"> <button >Read More</button></a>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Blog Card 2 -->
+    <div class="blog-card">
+      <img src="./homepageimages/images/BLOGS/blog2.jpg" alt="Blog Image 2">
+      <div class="blog-card-content">
+        <h2>Trendy Fashion Bags</h2>
+        <p>Fashion bags have become an essential accessory, transcending their functional purpose
+           to become a style statement. From chic tote bags to classic leather satchels, the world 
+           of fashion bags is incredibly diverse. Whether it's a designer brand or a thrift store 
+           find, the right bag can elevate any outfit, adding flair and personality. Trends in bags
+            often mirror the evolution of fashion, with seasonal changes in colors, shapes, and 
+            materials.</p>
+        <div class="read-more-button">
+        <a href="https://www.purseblog.com/prada/5-prada-re-nylon-bags-holiday/" class="read-more-link"> <button >Read More</button></a>
+      </div>
+      </div>
+    </div>
+  
+  <!-- Blog Card 3 -->
+  <div class="blog-card">
+      <img src="./homepageimages/images/BLOGS/blog3.jpg" alt="Blog Image 2">
+      <div class="blog-card-content">
+        <h2>Versatile  Bags</h2>
+        <p>Beyond the realm of fashion, bags serve a diverse array of purposes.The functionality 
+        of  bags, with their convenient compartments
+        .As our lifestyles evolve, so do the designs  of bags,
+        ensuring that they adapt to our ever-changing needs.</p>
+        <div class="read-more-button">
+          <a href="https://www.purseblog.com/collab/elevate-your-everyday-style-with-the-unmistakable-charm-and-versatility-of-these-bags/" class="read-more-link"> <button >Read More</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </section>
+
+ <!-- headings -->
+ <div class="reviewshead" data-aos="fade-down" data-aos-duration="1000">
+  <h1 class="reviewshead1">testimonial</h1>
+</div>
+<div  class="reviewshead"data-aos="fade-up" data-aos-duration="2000">
+  <h1 class="reviewshead2">our customers speak for us</h1>
+</div>
+
+<!-- customers review -->
+<div class="review_cards container" id="customer-reviews">
+  <!-- card1 -->
+  <div class="review_cards2" data-aos-duration="2000" data-aos="fade-right">
+    <div class="review_cards1">
+      <div class="stars">
+        <i class="fa-solid fa-star" style="color: #ecdb18"></i>
+        <i class="fa-solid fa-star" style="color: #ecdb18"></i>
+        <i class="fa-solid fa-star" style="color: #ecdb18"></i>
+        <i class="fa-solid fa-star" style="color: #ecdb18"></i>
+        <i class="fa-solid fa-star-half" style="color: #ecdb18"></i>
+      </div>
+      <div class="profil">
+        <!-- img -->
+        <img src="./homepageimages/profile_1.jpg" />
+        <!-- content -->
+        <div class="profile_name">
+          <h5>Kelly Smith</h5>
+          <h6>Customers</h6>
+        </div>
+      </div>
+      <!-- review -->
+      <div class="review_text">
+        Absolutely love this bag!Stylish and durable bag! Love the design
+        and compartments. It's versatile and fits all my essentials
+        perfectly..!!
+      </div>
+    </div>
+  </div>
+  <!-- card2 -->
+  <div class="review_cards2" data-aos="fade-up" data-aos-duration="2500">
+    <div class="review_cards1">
+      <div class="review_cards_child">
+        <div class="stars">
+          <i class="fa-solid fa-star" style="color: #ecdb18"></i>
+          <i class="fa-solid fa-star" style="color: #ecdb18"></i>
+          <i class="fa-solid fa-star" style="color: #ecdb18"></i>
+          <i class="fa-solid fa-star" style="color: #ecdb18"></i>
+        </div>
+        <div class="profil">
+          <!-- img -->
+          <img src="./homepageimages/profile_2.jpg" />
+          <!-- content -->
+          <div class="profile_name">
+            <h5>Devina Tan</h5>
+            <h6>Customers</h6>
+          </div>
+        </div>
+      </div>
+      <!-- review -->
+      <div class="review_text">
+        I am very satisfied with my purchase. It's nice that it comes in a
+        white, So Thank you for such good quality.!!
+      </div>
+    </div>
+  </div>
+  <!-- card3 -->
+  <div class="review_cards2" data-aos="fade-left" data-aos-duration="2000">
+    <div class="review_cards1">
+      <div class="stars">
+        <i class="fa-solid fa-star" style="color: #ecdb18"></i>
+        <i class="fa-solid fa-star" style="color: #ecdb18"></i>
+        <i class="fa-solid fa-star" style="color: #ecdb18"></i>
+        <i class="fa-solid fa-star" style="color: #ecdb18"></i>
+        <i class="fa-solid fa-star" style="color: #ecdb18"></i>
+      </div>
+      <div class="profil">
+        <!-- img -->
+        <img src="./homepageimages/profile_3.jpg" />
+        <!-- content -->
+        <div class="profile_name">
+          <h5>Martin Fred</h5>
+          <h6>Customers</h6>
+        </div>
+      </div>
+      <!-- review -->
+      <div class="review_text">
+        I am very satisfied with my purchase Great quality bag. Spacious
+        compartments. Would recommend!.!!
+      </div>
+    </div>
+  </div>
+</div>
+<!--footer-->
+<div class="footeer">
+  <footer>
+    <div class="footer-row">
+      <div class="footer-col">
+        <img src="./homepageimages/NEXTAG__8.png" alt="" class="LOGO"/>
+        <p style="font-size: 15px">
+          Join us on this journey as we continue to redefine the narrative
+          of bags
+        </p>
+        <div class="intromail">
+          <h3><i class="fa-solid fa-envelope"></i> Email</h3>
+          <p class="email-id">NEXTAG@gmail.com</p>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h3>Branches</h3>
+        <p><i class="fa-solid fa-location-dot"></i> Dolmen Mall Tariq Road</p>
+        <p><i class="fa-solid fa-location-dot"></i> Dolmen Mall Hyderi</p>
+        <p><i class="fa-solid fa-location-dot"></i> Dolmen Mall Clifton</p>
+        <div class="intro">
+          <h3><i class="fa-solid fa-phone"></i> Contact</h3>
+          <h6>+92-3123456789</h6>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h3>Links</h3>
+        <div class="list">
+         <p> <a href="./home.html">Home</a><br></p>
+         <p> <a href="./aboutus.html">About Us</a><br></p>
+         <p> <a href="./shops.html">Shop</a><br></p>
+         <p> <a href="./contactus.html">Contact Us</a><br></p>
+         <p> <a href="./comparision.html">comparision</a><br></p>
+        </div>
+      </div>
+      <div class="footer-col">
+        <div class="google-map" id="shop-location">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231656.03476260504!2d66.75776369453122!3d24.87663569999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33eecaef72355%3A0x3c9cca44c77de888!2sDolmen%20Mall%20Tariq%20Road!5e0!3m2!1sen!2s!4v1700158514233!5m2!1sen!2s"
+            class="footermap"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <p class="copyright">NEXTAG</p>
+  </footer>
+</div>
+<!-- end-------------------->
+
+      <!-- bootstrap js link -->
+    <script src="./bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+    <!-- j querry link -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous">
+    </script>
+     <!-- animation  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- js file -->
+    <script src="./shop.js"></script>
+</body>
+</html>

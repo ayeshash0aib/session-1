@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+    <!-- bootstap css -->
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.css"/>
+    <!-- css file link -->
+    <link rel="stylesheet" href="style.css"/>
+    <!-- fontawsome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"/>
+  </head>
+  <body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <div class="startlogo">
+          <img src="./homepageimages/NEXTAG__8.png" alt="" class="navbarlogo"/>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 px-5">
+            <!-- home -->
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./home.html">
+                Home
+              </a>
+            </li>
+            <!-- about us -->
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./aboutus.html">
+                AboutUs
+              </a>
+            </li>
+            <!-- shop -->
+            <li class="nav-item dropdown">
+              <a class="nav-link" aria-current="page" href="./shops.html">
+                Shop
+              </a>
+            </li>
+            <!-- contact -->
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./contactus.html">
+                Contact
+              </a>
+            </li>
+            <!-- comparison.html -->
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./Comparision.html">
+                comparision
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- back image -->
+    <div class="contact-home-content">
+    <div class="container-fluid">
+      <div class="back_img_detailpage">
+        <div class="back_content" data-aos="fade-up" data-aos-duration="2000">
+            <h1>Detail Page</h1>
+            <div class="contact-content-container">
+               <a href="./home.html"> <h3>Home</h3></a>
+                <i class="fa-solid fa-greater-than"></i>
+                <h3>Detail Page</h3>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- detail page -->
+    <div class="container prcontainer">
+      <div class="main-image-box">
+        <img id="mainImage" class="main-image"/>
+      </div>
+
+      <div class="details-box">
+        <h1 id="productname"></h1>
+
+        <div class="stars">
+          <i class="fa-solid fa-star" style="color: #e6bb43"></i>
+          <i class="fa-solid fa-star" style="color: #e6bb43"></i>
+          <i class="fa-solid fa-star" style="color: #e6bb43"></i>
+          <i class="fa-solid fa-star" style="color: #e6bb43"></i>
+          <i class="fa-solid fa-star" style="color: #e6bb43"></i>
+        </div>
+        <h2 id="productprice" style="color: darkgoldenrod"></h2>
+        <p id="productdetail"></p>
+        <!-- download button -->
+        <button  class="downloadbutton">
+          <div class="list">
+          <a href="./Price List (1).xlsx" download="">DOWNLOAD</a>
+          </div>
+        </button>
+      </div>
+    </div>
+    <!--footer-->
+    <div class="footeer">
+      <footer>
+        <div class="footer-row">
+          <div class="footer-col">
+            <img src="./homepageimages/NEXTAG__8.png" alt="" class="LOGO" />
+            <p style="font-size: 15px">
+              Join us on this journey as we continue to redefine the narrative
+              of bags
+            </p>
+            <div class="intromail">
+              <h3><i class="fa-solid fa-envelope"></i> Email</h3>
+              <p class="email-id">NEXTAG@gmail.com</p>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h3>Branches</h3>
+            <p><i class="fa-solid fa-location-dot"></i> Dolmen Mall Tariq Road</p>
+            <p><i class="fa-solid fa-location-dot"></i> Dolmen Mall Hyderi</p>
+            <p><i class="fa-solid fa-location-dot"></i> Dolmen Mall Clifton</p>
+            <div class="intro">
+              <h3><i class="fa-solid fa-phone"></i> Contact</h3>
+              <h6>+92-3123456789</h6>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h3>Links</h3>
+            <div class="list">
+              <p><a href="./home.html">Home</a><br /></p>
+              <p><a href="./aboutus.html">About Us</a><br /></p>
+              <p><a href="./shops.html">Shop</a><br /></p>
+              <p><a href="./contactus.html">Contact Us</a><br /></p>
+              <p><a href="./comparision.html">comparision</a><br /></p>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <div class="google-map" id="shop-location">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231656.03476260504!2d66.75776369453122!3d24.87663569999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33eecaef72355%3A0x3c9cca44c77de888!2sDolmen%20Mall%20Tariq%20Road!5e0!3m2!1sen!2s!4v1700158514233!5m2!1sen!2s"
+                class="footermap"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">NEXTAG</p>
+      </footer>
+    </div>
+    <!-- end-------------------->
+    <!-- bootstrap js -->
+    <script src="./bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+    <!-- javascript -->
+    <script>
+      //  product array
+      let product = [
+        {
+          id: 1,
+          img: "./homepageimages/images/bags/bag1.png",
+          name: "Zip Closure Handbag",
+          sellprice: "$55.00",
+          category: "Diore",
+          colorcode: "#3f977c",
+          detail:
+          "Zip closure handbags are popular for everyday use, work, travel, and casual outings. They can range from small crossbody bags with a single zip compartment to larger totes or satchels with multiple zippered sections for better organization. The choice of materials, colors, and designs can vary widely, allowing individuals to find a zip closure handbag that complements their personal style and meets their practical needs.",
+        },
+        {
+          id: 2,
+          img: "./homepageimages/images/bags/BAGS6.png",
+          name: "Blue Three-Fold Wallet",
+          sellprice: "$59.00",
+          category: "Channel",
+          colorcode: " #344f86",
+          detail:
+          "When shopping for a specific blue three-fold wallet, it's advisable to check the product details or description provided by the manufacturer or retailer to get accurate information on its features, dimensions, and materials used. Keep in mind that styles and features can vary among different brands and designs.",
+          doc: "ars.docx",
+        },
+        {
+          id: 3,
+          img: "./homepageimages/images/bags/bag2.png",
+          name: "Pink Mammon Handbag",
+          sellprice: "$70.00",
+          category: "Diore",
+          colorcode: "#923454",
+          detail:
+          "Introducing the epitome of chic and sophistication - the Pink Mamoon Bag. Crafted to captivate with its elegant allure, this bag is a fusion of exquisite design and contemporary style. The soft, rosy hue of this accessory radiates a subtle charm, adding a touch of femininity and grace to any ensemble.",
+        },
+        {
+          id: 4,
+          img: "./homepageimages/images/bags/BAGS5.png",
+          name: "Stylish wallet for girls",
+          sellprice: " $70.00",
+          category: "Diore",
+          colorcode: "#ffb1b2",
+          detail:
+          "When looking for a stylish wallet for girls, consider the individual preferences, needs, and age group of the person you are buying for. Checking product descriptions and reviews can provide more insight into the specific features and quality of the wallet you're interested in.",
+        },
+        {
+          id: 5,
+          img: "./homepageimages/images/bags/bag3.png",
+          name: "Cream Plaid Wristlet",
+          sellprice: "$70.00",
+          category: "Channel",
+          colorcode: "#caa776",
+          detail:
+          "When shopping for a specific Cream Plaid Wristlet, it's advisable to check the product details provided by the manufacturer or retailer for more accurate information on its features, dimensions, and materials used. Additionally, customer reviews can offer insights into the practicality and style of the wristlet.",
+        },
+        {
+          id: 6,
+          img: "./homepageimages/images/bags/BAGS3.png",
+          name: "Stylish mini wallet for girls",
+          sellprice: "$19.00",
+          category: "Diore",
+          colorcode: "#f6599a",
+          detail:
+          "When selecting a stylish mini wallet for girls, it's advisable to consider both aesthetics and functionality. Checking product descriptions, customer reviews, and details provided by the manufacturer or retailer will give you a better understanding of the specific features and quality of the mini wallet you're interested in.",
+        },
+        {
+          id: 7,
+          img: "./homepageimages/images/bags/bag4.png",
+          name: "Sky Blue Three-Fold Wallet",
+          sellprice: "$20.00",
+          category: "Channel",
+          colorcode: "#9fbac5",
+          detail:
+          "When considering a specific Sky Blue Three-Fold Wallet, it's advisable to check the product details for additional information on its features, dimensions, and materials. Always consider your personal preferences and needs to ensure the wallet aligns with your style and practical requirements.",
+        },
+        {
+          id: 8,
+          img: "./homepageimages/images/bags/BAGS10.jpg",
+          name: "Three-Red Bags pack",
+          sellprice: "$23.00",
+          category: "Channel",
+          colorcode: "#cd3736",
+          detail:
+          "When purchasing a Three-Red Bags Pack, it's essential to review the product details provided by the manufacturer or retailer to understand the specific features, dimensions, and materials of each bag. This will help you determine if the pack meets your preferences and needs.",
+        },
+        {
+          id: 9,
+          img: "./homepageimages/images/bags/bag5.png",
+          name: "Mustard Quilted Two-Fold Wallet",
+          sellprice: "$19.00",
+          category: "Gucci",
+          colorcode: "#efad4e",
+          detail:
+          "The term 'mustard' in this context refers to the color of the handbag. Mustard is a warm and rich yellow-brown shade, reminiscent of the condiment. A mustard handbag adds a pop of color to an outfit, providing a bold and distinctive look.",
+        },
+        {
+          id: 10,
+          img: "./homepageimages/images/bags/BAGS8.jpg",
+          name: "Three-Black Belle The Tote Bag",
+          sellprice: "$39.00",
+          category: "Gucci",
+          colorcode: "#424448",
+          detail:
+          "When interested in a specific product like 'Three-Black Belle The Tote Bag,' it's recommended to check the product details provided by the manufacturer or retailer for accurate and detailed information about the features, dimensions, and materials of each bag in the set. ",
+        },
+        {
+          id: 11,
+          img: "./homepageimages/images/bags/BAGS20.webp",
+          name: "Stylish white handbags",
+          sellprice: "$27.00",
+          category: "Marc Jacobs",
+          colorcode: "#e6e0d7",
+          detail:
+          "When selecting a stylish white handbag, consider your personal style preferences, the occasions you plan to use it for, and any specific features you find practical. Checking product details and reviews can help you make an informed decision based on your needs and style preferences.",
+        },
+        {
+          id: 12,
+          img: "./homepageimages/images/bags/BAGS14.png",
+          name: "Pretty wallet for girls",
+          sellprice: "$59.00",
+          category: "Gucci",
+          colorcode: "#ffb678",
+          detail:
+          "When choosing a pretty wallet for girls, it's essential to consider the individual preferences and age of the recipient. Checking product descriptions, customer reviews, and ensuring that the wallet meets practical needs are key factors in making a thoughtful and delightful choice.",
+        },
+        {
+          id: 13,
+          img: "./homepageimages/images/bags/BAGS13.png",
+          name: "Quilted Wallet On Chain Iridescent Purple",
+          sellprice: "$35.00",
+          category: "LV",
+          colorcode: "#6c4479",
+          detail:
+          "This chic shoulder bag is crafted of metallic lambskin leather in purple.The wallet features a rear pocket, a polished silver below the waist cross-body chain threaded with leather, and opens to an interior of fabric with card slots, zipper, and patch pockets.",
+        },
+        {
+          id: 14,
+          img: "./homepageimages/images/bags/BAGS1.png",
+          name: "Peach Pink Belle The Tote Bag",
+          sellprice: "$29.00",
+          category: "LV",
+          colorcode: "#b47f6a",
+          detail:
+          "Embrace sophistication and make a statement with this peach-colored handbag. Elevate your style effortlessly while enjoying the blend of fashion-forward design and practicality that this accessory offers.",
+        },
+        {
+          id: 15,
+          img: "./homepageimages/images/bags/BAGS9.jpg",
+          name: "Red Belle The Tote Bag",
+          sellprice: "$23.00",
+          category: "LV",
+          colorcode: "#950c17",
+          detail:
+          "ntroducing the Red Belle Tote Bag - a statement of bold sophistication and timeless style. This striking accessory in a vibrant red hue exudes confidence and allure. The rich, fiery tone of the bag captures attention while adding a touch of glamour to any ensemble.",
+        },
+        {
+          id: 16,
+          img: "./homepageimages/images/bags/BAGS2.webp",
+          name: "Black Belle The Checker Bag",
+          sellprice: "$26.00",
+          category: "LV",
+          colorcode: "#646668",
+          detail:
+          "When interested in a specific product like the Black Belle The Checker Bag, it's recommended to check the product details provided by the manufacturer or retailer for accurate and detailed information about the features, dimensions, and materials of the bag.",
+        },
+        {
+          id: 17,
+          img: "./homepageimages/images/bags/BAGS7.png",
+          name: "Beige Three-Fold Wallet",
+          sellprice: "$59.00",
+          category: "Prada",
+          colorcode: "#b8936c",
+          detail:
+          "When shopping for a Beige Three-Fold Wallet, it's advisable to check the product details provided by the manufacturer or retailer for more accurate information on its features, dimensions, and materials used. This will ensure that the wallet meets your specific preferences and needs.",
+        },
+        {
+          id: 18,
+          img: "./homepageimages/images/bags/BAGS15.webp",
+          name: "Beige Three-Fold Wallet",
+          sellprice: "$36.00",
+          category: "Prada",
+          colorcode: "#92cfe3",
+          detail:
+          "When shopping for a Beige Three-Fold Wallet, it's advisable to check the product details provided by the manufacturer or retailer for more accurate information on its features, dimensions, and materials used. This will ensure that the wallet meets your specific preferences and needs.",
+        },
+        {
+          id: 19,
+          img: "./homepageimages/images/bags/BAGS16.jpg",
+          name: "Handbag with shoulder strap",
+          sellprice: "$25.00",
+          category: "Prada",
+          colorcode: "#ac8d76",
+          detail:
+          "",
+        },
+        {
+          id: 20,
+          img: "./homepageimages/images/bags/BAGS22.webp",
+          name: "luxury fashion women handbag",
+          sellprice: "$40.00",
+          category: "Prada",
+          colorcode: "#df5795",
+          detail:
+          "",
+        },
+        {
+          id: 21,
+          img: "./homepageimages/images/bags/BAGS21.webp",
+          name: "Christian Dior Lady Dior Medium Bag ",
+          sellprice: "$30.00",
+          category: "Marc Jacobs",
+          colorcode: "#baa384",
+          detail:
+          "This Medium Lady Dior bag is in Corda Beige cannage lambskin with light gold hardware and has two Corda Beige top handles, four bottom feet, a Dior logo charm, and a removable Corda Beige leather shoulder strap.The interior is lined in Beige suede and has one zip pocket on the rear wall.",
+        },
+        {
+          id: 22,
+          img: "./homepageimages/images/bags/BAGS18.png",
+          name: "Pink handbags",
+          sellprice: "$40.00",
+          category: "Marc Jacobs",
+          colorcode: "#d1a294",
+          detail:
+          "This handbag boasts a design that seamlessly marries fashion and functionality. Its sleek silhouette and high-quality craftsmanship make it a standout piece. The supple texture of the material not only exudes luxury but also ensures durability, promising a lasting companion for your everyday adventures or special events.",
+        },
+        {
+          id: 23,
+          img: "./homepageimages/images/bags/BAGS12.png",
+          name: "Heidi Handheld Bag With Bamboo Handles",
+          sellprice: "$68.00",
+          category: "Gucci",
+          colorcode: "#e34e34",
+          detail:
+          "When looking for the 'Heidi Handheld Bag with Bamboo Handles,' I recommend checking with the retailer or brand where you found the information. Product details, including materials, dimensions, and additional features, can provide a more accurate understanding of the specific bag.",
+        },
+        {
+          id: 24,
+          img: "./homepageimages/images/bags/BAGS17.jpg",
+          name: "Handbag with shoulder strap",
+          sellprice: "$89.00",
+          category: "Marc Jacobs",
+          colorcode: "#545658",
+          detail:
+          "When choosing a handbag with a shoulder strap, consider factors such as your personal style, the occasions you'll be using it for, and the level of organization you need. Additionally, pay attention to the materials, hardware, and overall functionality of the bag to ensure it meets your needs and preferences.",
+        },
+      ];
+      // purses array
+      let handbags = [
+        {
+          id: 1,
+          img: "./homepageimages/images/bags/bag1.png",
+          name: "Zip Closure Handbag",
+          sellprice: "$55.00",
+          category: "Diore",
+          colorcode: "#3f977c",
+          detail:
+          "Zip closure handbags are popular for everyday use, work, travel, and casual outings. They can range from small crossbody bags with a single zip compartment to larger totes or satchels with multiple zippered sections for better organization. The choice of materials, colors, and designs can vary widely, allowing individuals to find a zip closure handbag that complements their personal style and meets their practical needs.",
+        },
+        {
+          id: 3,
+          img: "./homepageimages/images/bags/bag2.png",
+          name: "Pink Mammon Handbag",
+          sellprice: "$70.00",
+          category: "Diore",
+          colorcode: "#923454",
+          detail:
+          "For the most accurate and detailed information about the Pink Mammon Handbag, I recommend checking the product description provided by the brand or retailer offering the handbag. This will give you specific details about its size, materials, features, and any unique characteristics it may have.",
+        },
+        {
+          id: 5,
+          img: "./homepageimages/images/bags/bag3.png",
+          name: "Cream Plaid Wristlet",
+          sellprice: "$70.00",
+          category: "Channel",
+          colorcode: "#caa776",
+          detail:
+          "When shopping for a specific Cream Plaid Wristlet, it's advisable to check the product details provided by the manufacturer or retailer for more accurate information on its features, dimensions, and materials used. Additionally, customer reviews can offer insights into the practicality and style of the wristlet.",
+        },
+        {
+          id: 8,
+          img: "./homepageimages/images/bags/BAGS10.jpg",
+          name: "Three-Red Bags pack",
+          sellprice: "$23.00",
+          category: "Channel",
+          colorcode: "#cd3736",
+          detail:
+          "When purchasing a Three-Red Bags Pack, it's essential to review the product details provided by the manufacturer or retailer to understand the specific features, dimensions, and materials of each bag. This will help you determine if the pack meets your preferences and needs.",
+        },
+        {
+          id: 10,
+          img: "./homepageimages/images/bags/BAGS8.jpg",
+          name: "Three-Black Belle The Tote Bag",
+          sellprice: "$39.00",
+          category: "Gucci",
+          colorcode: "#424448",
+          detail:
+          "When interested in a specific product like 'Three-Black Belle The Tote Bag,' it's recommended to check the product details provided by the manufacturer or retailer for accurate and detailed information about the features, dimensions, and materials of each bag in the set. ",
+        },
+        {
+          id: 11,
+          img: "./homepageimages/images/bags/BAGS20.webp",
+          name: "Stylish white handbags",
+          sellprice: "$27.00",
+          category: "Marc Jacobs",
+          colorcode: "#e6e0d7",
+          detail:
+          "When selecting a stylish white handbag, consider your personal style preferences, the occasions you plan to use it for, and any specific features you find practical. Checking product details and reviews can help you make an informed decision based on your needs and style preferences.",
+        },
+
+        {
+          id: 14,
+          img: "./homepageimages/images/bags/BAGS1.png",
+          name: "Peach Pink Belle The Tote Bag",
+          sellprice: "$29.00",
+          category: "LV",
+          colorcode: "#b47f6a",
+          detail:
+          "When interested in a specific product like the Peach Pink Belle The Tote Bag, it's recommended to check the product details provided by the manufacturer or retailer for accurate and detailed information about the features, dimensions, and materials of the bag.",
+        },
+        {
+          id: 15,
+          img: "./homepageimages/images/bags/BAGS9.jpg",
+          name: "Red Belle The Tote Bag",
+          sellprice: "$23.00",
+          category: "LV",
+          colorcode: "#950c17",
+          detail:
+          "When interested in a specific product like the Red Belle The Tote Bag, it's recommended to check the product details provided by the manufacturer or retailer for accurate and detailed information about the features, dimensions, and materials of the bag.",
+        },
+        {
+          id: 16,
+          img: "./homepageimages/images/bags/BAGS2.webp",
+          name: "Black Belle The Checker Bag",
+          sellprice: "$26.00",
+          category: "LV",
+          colorcode: "#646668",
+          detail:
+          "When interested in a specific product like the Black Belle The Checker Bag, it's recommended to check the product details provided by the manufacturer or retailer for accurate and detailed information about the features, dimensions, and materials of the bag.",
+        },
+        {
+          id: 19,
+          img: "./homepageimages/images/bags/BAGS16.jpg",
+          name: "Handbag with shoulder strap",
+          sellprice: "$25.00",
+          category: "Prada",
+          colorcode: "#ac8d76",
+          detail:
+          "When selecting a handbag with a shoulder strap, consider your personal style, the intended use, and the level of organization you need. Checking product details and customer reviews can provide additional insights into the specific features and quality of the handbag you're interested in.",
+        },
+        {
+          id: 20,
+          img: "./homepageimages/images/bags/BAGS22.webp",
+          name: "luxury fashion women handbag",
+          sellprice: "$40.00",
+          category: "Prada",
+          colorcode: "#df5795",
+          detail:
+          "When investing in a luxury fashion women's handbag, it's essential to research and choose a reputable brand known for its quality and style. Consider your personal preferences, the bag's functionality, and how well it complements your overall style.",
+        },
+        {
+          id: 21,
+          img: "./homepageimages/images/bags/BAGS21.webp",
+          name: "Women handbags",
+          sellprice: "$30.00",
+          category: "Marc Jacobs",
+          colorcode: "#baa384",
+          detail:
+          "When choosing a women's handbag, consider factors such as your lifestyle, the occasions you'll be using it for, and your personal style preferences. Additionally, pay attention to the materials, hardware, and functionality of the bag to ensure it meets your needs.",
+        },
+        {
+          id: 22,
+          img: "./homepageimages/images/bags/BAGS18.png",
+          name: "Pink handbags",
+          sellprice: "$40.00",
+          category: "Marc Jacobs",
+          colorcode: "#d1a294",
+          detail:
+          "When choosing a pink handbag, consider the shade of pink, the style that complements your wardrobe, and the occasion for which you plan to use the bag. Whether you prefer a soft pastel pink, a vibrant fuchsia, or a classic blush, there's a wide range of options to suit your personal style.",
+        },
+        {
+          id: 23,
+          img: "./homepageimages/images/bags/BAGS12.png",
+          name: "Heidi Handheld Bag With Bamboo Handles",
+          sellprice: "$68.00",
+          category: "Gucci",
+          colorcode: "#e34e34",
+          detail:
+          "When looking for the 'Heidi Handheld Bag with Bamboo Handles,' I recommend checking with the retailer or brand where you found the information. Product details, including materials, dimensions, and additional features, can provide a more accurate understanding of the specific bag.",
+        },
+        {
+          id: 24,
+          img: "./homepageimages/images/bags/BAGS17.jpg",
+          name: "Handbag with shoulder strap",
+          sellprice: "$89.00",
+          category: "Marc Jacobs",
+          colorcode: "#545658",
+          detail:
+          "When choosing a handbag with a shoulder strap, consider factors such as your personal style, the occasions you'll be using it for, and the level of organization you need. Additionally, pay attention to the materials, hardware, and overall functionality of the bag to ensure it meets your needs and preferences.",
+        },
+        {
+          id: 25,
+          img: "./homepageimages/images/bags/bag7.png",
+          name: "Reward bag beige",
+          sellprice: "$29.00",
+          category: "Marc Jacobs",
+          colorcode: "#413328",
+          detail:
+          "It seems like your request is a bit unclear. If you're looking for information about a specific 'reward bag' in beige, I may need more details. Reward bags can be associated with various contexts, such as promotional giveaways, events, or gaming rewards.",
+        },
+      ];
+      // wallets  array
+      let wallets = [
+        {
+          id: 2,
+          img: "./homepageimages/images/bags/BAGS6.png",
+          name: "Blue Three-Fold Wallet",
+          sellprice: "$59.00",
+          category: "Channel",
+          colorcode: "#1d2b46",
+          detail:
+          "When shopping for a specific blue three-fold wallet, it's advisable to check the product details or description provided by the manufacturer or retailer to get accurate information on its features, dimensions, and materials used. Keep in mind that styles and features can vary among different brands and designs.",
+        },
+        {
+          id: 4,
+          img: "./homepageimages/images/bags/BAGS5.png",
+          name: "Stylish wallet for girls",
+          sellprice: " $70.00",
+          category: "Diore",
+          colorcode: "#ffb1b2",
+          detail:
+          "When looking for a stylish wallet for girls, consider the individual preferences, needs, and age group of the person you are buying for. Checking product descriptions and reviews can provide more insight into the specific features and quality of the wallet you're interested in.",
+        },
+        {
+          id: 6,
+          img: "./homepageimages/images/bags/BAGS3.png",
+          name: "Stylish mini wallet for girls",
+          sellprice: "$19.00",
+          category: "Diore",
+          colorcode: "#f6599a",
+          detail:
+          "When selecting a stylish mini wallet for girls, it's advisable to consider both aesthetics and functionality. Checking product descriptions, customer reviews, and details provided by the manufacturer or retailer will give you a better understanding of the specific features and quality of the mini wallet you're interested in.",
+        },
+        {
+          id: 7,
+          img: "./homepageimages/images/bags/bag4.png",
+          name: "Sky Blue Three-Fold Wallet",
+          sellprice: "$20.00",
+          category: "Channel",
+          colorcode: "#9fbac5",
+          detail:
+          "When considering a specific Sky Blue Three-Fold Wallet, it's advisable to check the product details for additional information on its features, dimensions, and materials. Always consider your personal preferences and needs to ensure the wallet aligns with your style and practical requirements.",
+        },
+        {
+          id: 9,
+          img: "./homepageimages/images/bags/bag5.png",
+          name: "Mustard Quilted Two-Fold Wallet",
+          sellprice: "$19.00",
+          category: "Gucci",
+          colorcode: "#efad4e",
+          detail:
+          "The term 'mustard' in this context refers to the color of the handbag. Mustard is a warm and rich yellow-brown shade, reminiscent of the condiment. A mustard handbag adds a pop of color to an outfit, providing a bold and distinctive look.",
+        },
+        {
+          id: 13,
+          img: "./homepageimages/images/bags/BAGS13.png",
+          name: "Stylish wallet for girls",
+          sellprice: "$35.00",
+          category: "LV",
+          colorcode: "#6c4479",
+          detail:
+          "When looking for a stylish wallet for girls, consider the individual preferences, needs, and age group of the person you are buying for. Checking product descriptions and reviews can provide more insight into the specific features and quality of the wallet you're interested in.",
+        },
+        {
+          id: 14,
+          img: "./homepageimages/images/bags/BAGS1.png",
+          name: "Peach Pink Belle The Tote Bag",
+          sellprice: "$29.00",
+          category: "LV",
+          colorcode: "#b47f6a",
+          detail:
+          "When interested in a specific product like the Peach Pink Belle The Tote Bag, it's recommended to check the product details provided by the manufacturer or retailer for accurate and detailed information about the features, dimensions, and materials of the bag.",
+        },
+        {
+          id: 17,
+          img: "./homepageimages/images/bags/BAGS7.png",
+          name: "Beige Three-Fold Wallet",
+          sellprice: "$59.00",
+          category: "Prada",
+          colorcode: "#b8936c",
+          detail:
+          "When shopping for a Beige Three-Fold Wallet, it's advisable to check the product details provided by the manufacturer or retailer for more accurate information on its features, dimensions, and materials used. This will ensure that the wallet meets your specific preferences and needs.",
+        },
+      ];
+      
+
+
+      // detail js
+      let url = new URL(window.location.href);
+      let id = url.searchParams.get("id");
+      let array = url.searchParams.get("array");
+      if (array == "product") {
+        document.getElementById("mainImage").setAttribute("src", product[id].img);
+        document.getElementById("productname").innerHTML = product[id].name;
+        document.getElementById("productprice").innerHTML = product[id].sellprice;
+        document.getElementById("productdetail").innerHTML = product[id].detail;
+      } else if (array == "handbags") {
+        document.getElementById("mainImage").setAttribute("src", handbags[id].img);
+        document.getElementById("productname").innerHTML = handbags[id].name;
+        document.getElementById("productprice").innerHTML =handbags[id].sellprice;
+        document.getElementById("productdetail").innerHTML =handbags[id].detail;
+      } else if (array == "wallets") {
+        document.getElementById("mainImage").setAttribute("src", wallets[id].img);
+        document.getElementById("productname").innerHTML = wallets[id].name;
+        document.getElementById("productprice").innerHTML =wallets[id].sellprice;
+        document.getElementById("productdetail").innerHTML = wallets[id].detail;
+      }
+           
+    </script>
+
+  </body>
+</html>
